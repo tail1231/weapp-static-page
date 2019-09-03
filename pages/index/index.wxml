@@ -1,0 +1,77 @@
+<view class="root">
+  <!-- tab栏 -->
+  <view class="tabs">
+    <text class="active">个性推荐</text>
+    <text>歌单</text>
+    <text>主播电台</text>
+    <text>排行榜</text>
+  </view>
+  <!-- 内容区域 -->
+  <view class="content">
+    <!-- 轮播图区域 -->
+    <view class="lunbotu">
+      <image src="../../images/lunbotu.png"></image>
+    </view>
+    <!-- 模块入口区域 -->
+    <view class="entrance">
+      <view class="item">
+        <image src="../../images/huiyuan.png"></image>
+        <text>会员入口</text>
+      </view>
+      <view class="item">
+        <image src="../../images/meishu.png"></image>
+        <text>会员入口</text>
+      </view>
+      <view class="item">
+        <image src="../../images/wudao.png"></image>
+        <text>会员入口</text>
+      </view>
+    </view>
+    <!-- 歌单 -->
+    <view class="list">
+      <text class="title">推荐歌单</text>
+      <view class="inner">
+        <view class="item">
+          <image src="../../images/music.png"></image>
+          <text>一生所爱的人是谁谁谁????</text>
+        </view>
+        <view class="item">
+          <image src="../../images/music.png"></image>
+          <text>一生所爱的人是谁谁谁????</text>
+        </view>
+        <view class="item">
+          <image src="../../images/music.png"></image>
+          <text>一生所爱的人是谁谁谁????</text>
+        </view>
+        <view class="item">
+          <image src="../../images/music.png"></image>
+          <text>一生所爱的人是谁谁谁????</text>
+        </view>
+        <view class="item">
+          <image src="../../images/music.png"></image>
+          <text>一生所爱的人是谁谁谁????</text>
+        </view>
+        <view class="item">
+          <image src="../../images/music.png"></image>
+          <text>一生所爱的人是谁谁谁????</text>
+        </view>
+      </view>
+    </view>
+
+  </view>
+  <!-- 播放条控制 -->
+  <view class="player">
+    <view class="poster">
+      <image src="../../images/music.png"></image>
+    </view>
+    <view class="info">
+      <text class="title">一生所爱</text>
+      <text class="artist">谭咏麟</text>
+    </view>
+    <view class="controls">
+      <image src="../../images/Notesmusic.png"></image>
+      <image src="../../images/Playerplay.png"></image>
+      <image src="../../images/Playernext.png"></image>
+    </view>
+  </view>
+</view>
